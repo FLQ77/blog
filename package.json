@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "README",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FLQ77/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FLQ77/blog/issues"
+  },
+  "homepage": "https://github.com/FLQ77/blog#readme",
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.45",
+    "vue": "^3.2.47"
+  }
+}
