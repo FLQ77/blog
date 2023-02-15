@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-    title: '方方方',
+    title: '七七酱是只猫',
     description: 'hello world',
     base: '/blog/',
 
@@ -14,6 +14,27 @@ export default defineConfig({
             { text: '生活感悟', link: '/life/'}
         ],
         socialLinks: [{ icon: "github", link: "https://github.com/FLQ77" }],
+        
+        sidebar: {
+            "/note/": [
+                { 
+                    text:"学习笔记",
+                    items:[
+                        { text:"2023-02", link:"/note/2023-02"}
+                    ]
+                }
+
+            ],
+            "/life/": [
+                {
+                    text: "生活感悟",
+                    items:[
+                        { text:"阅读写作小册有感",link:"/life/2023-02"}
+                    ]
+                }
+            ]
+        },
+
         footer: {
         message: "Released under the MIT License.",
         copyright: "Copyright © 2023-02-09～present FLQ",
